@@ -353,10 +353,27 @@ th {
 	left: 10px;
 }
 
-.skills-text {
+.skills-text1 {
 	position: absolute;
 	top: 37px;
 	left: 23px;
+}
+
+.skills-text2 {
+	position: absolute;
+	top: 37px;
+	left: 16px;	
+}
+
+.skills-text3 {
+	position: absolute;
+	top: 37px;
+	left: 23px;	
+}
+
+.skills-text4 {
+	position: absolute;
+	top: 37px;
 }
 
 /* ==========================================================================
