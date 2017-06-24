@@ -95,29 +95,10 @@ textarea {
 	 Author's custom styles
 	 ========================================================================== */
 
-*,
-*:before,
-*:after {
-	-webkit-box-sizing: border-box;
-		 -moz-box-sizing: border-box;
-					box-sizing: border-box;
-}
-
 body {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.5;
 	background-color: #E0E0E0;
-}
-
-.grid,
-.container {
-	margin: 0 auto;
-	width: 1054px;
-}
-
-.container {
-	padding-left: 30px;
-	padding-right: 30px;
 }
 
 img {
@@ -127,103 +108,51 @@ img {
 
 .profile-pic {
 	border-radius: 100%;
-	float: right;
 	max-width: 150px;
+	height: auto;
 }
 
 .project1 {
 	background: url("https://images.pexels.com/photos/34088/pexels-photo.jpg?dl&fit=crop&w=640&h=274") center center no-repeat;
-	background-size: cover;
-	width: 60%;
-	float: right;
 }
 
 .project2 {
 	background: url("https://images.pexels.com/photos/196659/pexels-photo-196659.jpeg?dl&fit=crop&w=640&h=274") center center no-repeat;
-	background-size: cover;
-	width: 60%;
-	float: left;
 }
 
 .project3 {
 	background: url("https://images.pexels.com/photos/265152/pexels-photo-265152.jpeg?dl&fit=crop&w=640&h=274") center center no-repeat;
+	
+}
+
+.project1,
+.project2,
+.project3 {
 	background-size: cover;
 	width: 60%;
-	float: right;
 }
 
-.details1 {
+.details {
 	width: 30%;
-	float: left;
 }
 
-.details1 a:link,
-.details1 a:visited,
-.details1 a:hover,
-.details1 a:active {
+.details a:link,
+.details a:visited,
+.details a:hover,
+.details a:active {
 	color: #0288D1;
 }
 
-.details2 {
-	width: 30%;
-	float: right;
-}
-
-.details2 a:link,
-.details2 a:visited,
-.details2 a:hover,
-.details2 a:active {
-	color: #0288D1;
-}
-
-.details3 {
-	width: 30%;
-	float: left;
-}
-
-.details3 a:link,
-.details3 a:visited,
-.details3 a:hover,
-.details3 a:active {
-	color: #0288D1;
-}
-
-span {
-	float: right;
-}
-
-.col-1-3 {
-	width: 33.33%;
-}
-
-.col-2-3 {
-	width: 66.66%;
-}
-
-.col-1-3,
-.col-2-3 {
-	display: inline-block;
-	vertical-align: top;
-}
-
-.grid,
-.col-1-3,
-.col-2-3 {
-	padding-left: 15px;
-	padding-right: 15px;
-}
-
-.header {
+.nav {
 	background-color: #0277BD;
 	padding: 15px 0;
+	color: #E1F5FE;
 }
 
 .nav-link {
-	color: #E1F5FE;
 	text-decoration: none;
 	display: inline-block;
 	margin-right: 20px;
-	vertical-align: top;
 }
 
 .nav-link:hover {
@@ -263,10 +192,6 @@ a:visited,
 a:hover,
 a:active {
 	text-decoration: none;
-	color: #E1F5FE;
-}
-
-footer {
 	color: #E1F5FE;
 }
 
